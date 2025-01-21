@@ -39,7 +39,7 @@ global.languaje = 'Español'
 global.vs = '2.1.5'
 global.vsJB = '5.0'
 global.nameqr = 'Darklight_Bot'
-global.namebot = ''
+global.namebot = '(人◕‿◕) 𝕕𝕒𝕣𝕜𝕝𝕚𝕘𝕙𝕥 (•◡•)'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
@@ -47,22 +47,22 @@ global.yukiJadibts = true
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packsticker =`♾━━━━━━━━\n✦ Bσƚ:\n✦ Pɾσριҽƚαɾισ:\n✦ Fҽƈԋα ԃҽ Cɾҽαƈιóɳ:\n✦ Hσɾα ԃҽ Cɾҽαƈιóɳ:\n♾━━━━━━━━`
-global.packsticker2 = `━━━━━━━━♾\n⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧\n☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n━━━━━━━━♾\n\nѕτιϲκєя ϐγ: ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥`
+global.packsticker2 = `━━━━━━━━♾\n⛧°. ★彡 𝘥𝘢𝘳𝘬𝘭𝘪𝘨𝘩𝘵_𝘉𝘰𝘵 彡★. °⛧\n☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n━━━━━━━━♾\n\nѕτιϲκєя ϐγ: ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥`
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧`
-global.botname = '⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧'
-global.wm = 'ৎ୭࠭͢⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧'
+global.packname = `¤ (¯´☆✭.¸_)¤ 𝙙𝙖𝙧𝙠𝙡𝙞𝙜𝙝𝙩_𝘽𝙤𝙩 ¤(_¸.✭☆´¯) ¤`
+global.botname = '(人◕‿◕) 𝕕𝕒𝕣𝕜𝕝𝕚𝕘𝕙𝕥 (•◡•)'
+global.wm = '｡*ﾟ.*.｡(っ ᐛ )っ 𝐝𝐚𝐫𝐤𝐥𝐢𝐠𝐡𝐭'
 global.author = 'Made By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
-global.textbot = '⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. • Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
+global.textbot = '•´¯𝐝𝐚𝐫𝐤𝐥𝐢𝐠𝐡𝐭¯`•. • Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
 global.numcreador = '584148256527'
-global.moneda = 'dragones'
+global.moneda = 'estrellas'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
-global.banner = 'https://qu.ax/xTDrE.jpg'
-global.catalogo = 'https://qu.ax/DuHib.jpg'
+global.banner = 'https://qu.ax/uXQbv.jpg'
+global.catalogo = 'https://qu.ax/Edrrn.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
