@@ -18,7 +18,7 @@ let handler = async (m, { conn, args }) => {
 ᴀǫᴜɪ ᴛɪᴇɴᴇs ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs
 ╭┈ ↷
 │ᰔᩚ Cliente » @${userId.split('@')[0]}
-│⛁ ${moneda} » ${coins}
+│★ ${moneda} » ${coins}
 │✰ Experiencia » ${exp.toLocaleString()}
 │✦ Nivel » ${nivel}
 │✤ Rango » ${role}
