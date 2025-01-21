@@ -37,11 +37,11 @@ let pushname = m.pushName || 'Sin nombre'
 global.creador = 'Wa.me/584148256527'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/584148256527'
-global.namechannel = '⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧'
-global.namechannel2 = '⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧"'
-global.namegrupo = '⛧°. ⋆S͙úp͙e͙r͙ D͙r͙a͙g͙ón͙ B͙o͙t͙ z͙⋆. °⛧'
-global.namecomu = '✰💨⃟፝ᰯ🐉𝐊𝐚𝐤𝐚𝐫𝐨𝐭𝐨 𝐁𝐨𝐭🐉፝⃟ᰯ💨✰'
-global.listo = '🍬 *Aquí tienes ฅ^•ﻌ•^ฅ*'
+global.namechannel = '(人◕‿◕) ɖąཞƙƖıɠɧɬ |꧁ĹєǤ𝒆𝐧𝐃꧂☆)'
+global.namechannel2 = '(人◕‿◕) ɖąཞƙƖıɠɧɬ |꧁ĹєǤ𝒆𝐧𝐃꧂☆)"'
+global.namegrupo = '(人◕‿◕) ɖąཞƙƖıɠɧɬ |꧁ĹєǤ𝒆𝐧𝐃꧂☆)'
+global.namecomu = '｡*ﾟ.*.｡(っ ᐛ )っ 𝐝𝐚𝐫𝐤𝐥𝐢𝐠𝐡𝐭'
+global.listo = '🔮 *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.colab1 = 'Emma-Violets-Versión'
 global.colab2 = 'Niño Piña'
 global.colab3 = 'Legendary'
@@ -49,7 +49,7 @@ global.colab3 = 'Legendary'
 //Ids channel
 global.idchannel = '120363323286489957@newsletter'
 global.canalIdM = ["120363323286489957@newsletter", "120363323286489957@newsletter"]
-global.canalNombreM = ["𝗧𝗘𝗔𝗠 | 𝗠𝗨𝗡𝗗𝗢 𝗔𝗡𝗜𝗠𝗘ᚐ҉", "𝗧𝗘𝗔𝗠 | 𝗠𝗨𝗡𝗗𝗢 𝗔𝗡𝗜𝗠𝗘ᚐ҉"]
+global.canalNombreM = ["(人◕‿◕) ɖąཞƙƖıɠɧɬ |꧁ĹєǤ𝒆𝐧𝐃꧂☆)", "(人◕‿◕) ɖąཞƙƖıɠɧɬ |꧁ĹєǤ𝒆𝐧𝐃꧂☆)"]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -67,17 +67,17 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de Yuki Bot
-global.emoji = '🐉'
-global.emoji2 = '☁️'
-global.emoji3 = '👾'
-global.emoji4 = '⚡'
+global.emoji = '🌠'
+global.emoji2 = '🌌'
+global.emoji3 = '❄️'
+global.emoji4 = '☄️'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 (人◕‿◕)...*';
+global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 (人◕‿◕)...*';
+global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 (人◕‿◕)...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 (人◕‿◕)...*';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'  
@@ -115,13 +115,13 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-"https://qu.ax/xvXFB.jpg",
-"https://qu.ax/PhRrB.jpg",
-"https://qu.ax/YKdFn.jpg",
-"https://qu.ax/PhRrB.jpg",
-"https://qu.ax/yaCjo.jpg",
-"https://qu.ax/YKdFn.jpg",
-"https://qu.ax/YKdFn.jpg"
+"https://qu.ax/Edrrn.jpg",
+"https://qu.ax/ZmaDF.jpg",
+"https://qu.ax/TUjAh.jpg",
+"https://qu.ax/TUjAh.jpg",
+"https://qu.ax/brnET.jpg",
+"https://qu.ax/YLHtk.jpg",
+"https://qu.ax/YLHtk.jpg"
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
