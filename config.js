@@ -61,7 +61,7 @@ global.numcreador = '584148256527'
 global.moneda = 'estrellas'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
-global.banner = 'https://qu.ax/VmDrw.jpg'
+global.banner = 'https://qu.ax/KahQO.jpg'
 global.catalogo = 'https://qu.ax/Edrrn.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
