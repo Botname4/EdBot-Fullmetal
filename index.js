@@ -13,7 +13,7 @@ const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Yuki-Bot-MD', {
+say('Darklight_Bot', {
 font: 'block',
 align: 'center',
 colors: ['yellow']
@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['redBright']
 });
-say(`Developed By • The-King-Destroy`, {
+say(`Developed By • Legend`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
