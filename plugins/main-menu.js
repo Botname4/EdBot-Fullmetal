@@ -26,6 +26,10 @@ let handler = async (m, { conn, args }) => {
 ╰─────────────────
 ᴄʀᴇᴀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀɴᴅᴏ *#serbot* o *#serbot code*
 
+𖣠 *Sigue nuestro canal pata ver las actualizaciones*
+https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
+꒷꒦﹋ٜ۪ꥇ໋۬꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦꒷꒷꒦﹋ٜ۪ꥇ໋۬꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦﹋ٜ۪ꥇ໋۬ ꒷꒦꒷
+
 »  ⊹˚• \`Info-Bot\` •˚⊹
 
 ✎ Comandos para ver estado e información de la Bot.
