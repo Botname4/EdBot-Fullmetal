@@ -7,179 +7,110 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 import moment from 'moment-timezone' 
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +573218138672
-global.confirmCode = ''
-
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
+// ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🤖
 global.owner = [
-  ['584148256527', '𝕮𝖗𝖊𝖆𝖉𝖔𝖗 ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎', true],
-  ['584148256527', '☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
-  ['5216731010376', 'Iam Fz', true],
-  ['584120346669', 'Destroy', true],
-  ['573154062343'],
-  ['584128382769']
+['584164137403', '☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
+['15614809253', 'David-RyzeMD', true],
+['50248019799', '🐉𝙉𝙚𝙤𝙏𝙤𝙠𝙮𝙤 𝘽𝙚𝙖𝙩𝙨🐲', true],
+['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
 ];
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.mods = ['584148257527', '584128382768', '', '', '']
-global.suittag = ['584120346669']
-global.prems = []
+// ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
+global.mods = ['573001533523', '573133374132'];
+global.suittag = ['573001533523', '573133374132'];
+global.prems = ['5212203832129'];
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.libreria = 'Baileys'
-global.baileys = 'V 6.7.9' 
-global.languaje = 'Español'
-global.vs = '2.1.5'
-global.vsJB = '5.0'
-global.nameqr = 'Darklight_Bot'
-global.namebot = '(人◕‿◕) 𝕕𝕒𝕣𝕜𝕝𝕚𝕘𝕙𝕥 (•◡•)'
-global.sessions = 'Sessions'
-global.jadi = 'JadiBots' 
-global.yukiJadibts = true
+// IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ El ᗷOT 🍁
+global.libreria = 'Baileys';
+global.nameqr = 'RoxyBot';
+global.namebot = 'RoxyBot';
+global.sessions = 'Sessions';
+global.jadi = 'JadiBots';
+global.roxyJadibts = true;
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.packsticker =`♾━━━━━━━━\n✦ Bσƚ:\n✦ Pɾσριҽƚαɾισ:\n✦ Fҽƈԋα ԃҽ Cɾҽαƈιóɳ:\n✦ Hσɾα ԃҽ Cɾҽαƈιóɳ:\n♾━━━━━━━━`
-global.packsticker2 = `━━━━━━━━♾\n⛧°. ★彡 𝘥𝘢𝘳𝘬𝘭𝘪𝘨𝘩𝘵_𝘉𝘰𝘵 彡★. °⛧\n☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n━━━━━━━━♾\n\nѕτιϲκєя ϐγ: ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥`
+// ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
+global.packname = '𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭 )';
+global.botname = '✦ 𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭 ✦༉';
+global.wm = '𓆩⟡𓆪 𝑬𝒅𝑩𝒐𝒕–𝑭𝒖𝒍𝒍𝑴𝒆𝒕𝒂𝒍 𓆩⟡𓆪';
+global.dev = '༺⟦ 𝙀𝓵𝕣𝑖𝐜 ⟧༻';
+global.textbot = '𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭-Ai✦';
+global.etiqueta = '𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭-Ai✦';
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.packname = `¤ (¯´☆✭.¸_)¤ 𝙙𝙖𝙧𝙠𝙡𝙞𝙜𝙝𝙩_𝘽𝙤𝙩 ¤(_¸.✭☆´¯) ¤`
-global.botname = '(人◕‿◕) 𝕕𝕒𝕣𝕜𝕝𝕚𝕘𝕙𝕥 (•◡•)'
-global.wm = '｡*ﾟ.*.｡(っ ᐛ )っ 𝐝𝐚𝐫𝐤𝐥𝐢𝐠𝐡𝐭'
-global.author = 'Made By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
-global.textbot = '•´¯𝐝𝐚𝐫𝐤𝐥𝐢𝐠𝐡𝐭¯`•. • Powered By ☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆)♥︎'
-global.numcreador = '584148256527'
-global.moneda = 'estrellas'
-global.welcom1 = 'Edita Con #setwelcome'
-global.welcom2 = 'Edita Con #setbye'
-global.banner = 'https://qu.ax/WAZoi.jpg'
-global.catalogo = 'https://qu.ax/Edrrn.jpg'
+// ᗰOᑎᗴᗪᗩՏ 💸
+global.moneda = 'dolares';
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.imagen1 = fs.readFileSync('./src/menus/Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/anime.jpg');
-global.imagen3 = fs.readFileSync('./src/menus/Menu3.jpg');
-global.imagen4 = fs.readFileSync('./src/menus/Menu.jpg');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./src/menus/Menu3.jpg');
-global.imagen7 = fs.readFileSync('./src/menus/Menu5.jpg');
-global.imagen8 = fs.readFileSync('./src/menus/Menu4.jpg')
-global.imagen9 = fs.readFileSync('./src/menu_en.png')
-global.imagen10 = fs.readFileSync('./src/nuevobot.jpg')
-global.miniurl = fs.readFileSync('./src/Grupo.jpg');
-global.logo2 = fs.readFileSync('./src/logo2.jpg')
-global.logo3 = fs.readFileSync('./src/logo3.jpg')
-global.catalogo = fs.readFileSync('./src/logo6.png')
-global.logo4 = fs.readFileSync('./src/logo4.jpg')
-global.logo5 = fs.readFileSync('./src/logo5.jpg')
-global.logo7 = fs.readFileSync('./src/Logo7.png')
-global.logo8 = fs.readFileSync('./src/Logo8.jpg')
-global.rule = fs.readFileSync('./src/rule.jpg')
+global.namabot = '⫹⫺  ᴍᴅ'
+global.v = '-'   
+global.eror = "_ubo un error _"
+global.lopr = "🅟"
+global.lolm = "Ⓛ"
+global.dmenut = "✦ ───『"
+global.dmenub = "│➭" 
+global.dmenub2 = "│乂"
+global.dmenuf = "╰━━━━━━━━┈─◂"
+global.cmenut = "⫹⫺ ───『"
+global.cmenuh = "』─── ⬟"
+global.cmenub = "│〆"
+global.cmenuf = "╰━━━━━━━━┈─◂"
+global.cmenua = "\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     "
+global.dashmenu = "✧────···[ *Dashboard* ]···────✧"
+global.htki = '––––––『'
+global.htka = '』––––––'
+global.htjava = "⫹⫺"
+global.comienzo = "• • ◕◕════"
+global.fin = " • •"
 
-global.photoSity = [imagen8, imagen1, imagen4, imagen6]
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+// Iᗰᗩᘜ3ᑎᗴՏ ᑎO TOᑕᗩᖇ 📥
+global.catalogo = fs.readFileSync('./src/catalogo.jpg');
+global.photoSity = [catalogo]
 
-global.gp4 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.gp1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t' 
-global.gp2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.comunidad1 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.channel = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.channel2 = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.md = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.correo = 'https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t'
-global.cn ='https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t';
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+// ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
+global.gp1 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42/'
+global.channel2 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42'
+global.md = 'https://El-brayan502/RoxyBot-MD'
+global.correo = 'brayanfree881@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42';
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '❀ Super Dragón bot︎︎', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
+global.catalogo = fs.readFileSync('./src/catalogo.jpg');
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363323286489957@newsletter',
-ch2: '120363323286489957@newsletter',
+ch1: '120363312092804854@newsletter',
 }
 
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.cheerio = cheerio
-global.fs = fs
-global.fetch = fetch
-global.axios = axios
-global.moment = moment   
+global.MyApiRestBaseUrl = 'https://api.cafirexos.com';
+global.MyApiRestApikey = 'BrunoSobrino';
+global.openai_org_id = 'org-3';
+global.openai_key = 'sk-0';
+global.keysZens = ['LuOlangNgentot', 'c2459db922', '37CC845916', '6fb0eff124', 'hdiiofficial', 'fiktod', 'BF39D349845E', '675e34de8a', '0b917b905e6f'];
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63'];
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())];
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5'];
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())];
+global.lolkeysapi = ['kurumi']; // ['BrunoSobrino_2']
+global.itsrose = ['4b146102c4d500809da9d1ff'];
 
-global.rpg = {
-  emoticon(string) {
-    string = string.toLowerCase();
-    const emot = {
-      level: '🌟 Nivel',
-      coin: '💸 Coin',
-      exp: '✨ Experiencia',
-      bank: '🏦 Banco',
-      diamond: '💎 Diamante',
-      health: '❤️ Salud',
-      kyubi: '🌀 Magia',
-      joincount: '💰 Token',
-      emerald: '♦️ Esmeralda',
-      stamina: '⚡ Energía',
-      role: '⚜️ Rango',
-      premium: '🎟️ Premium',
-      pointxp: '📧 Puntos Exp',
-      gold: '👑 Oro',
-      iron: '⛓️ Hierro',
-      coal: '🌑 Carbón',
-      stone: '🪨 Piedra',
-      potion: '🥤 Poción',
-    };
-    const results = Object.keys(emot).map((v) => [v, new RegExp(v, 'gi')]).filter((v) => v[1].test(string));
-    if (!results.length) return '';
-    else return emot[results[0][0]];
-  }};
-global.rpgg = { 
-  emoticon(string) {
-    string = string.toLowerCase();
-    const emott = {
-      level: '🌟',
-      coin: '💸',
-      exp: '✨',
-      bank: '🏦',
-      diamond: '💎',
-      health: '❤️',
-      kyubi: '🌀',
-      joincount: '💰',
-      emerald: '♦️',
-      stamina: '⚡',
-      role: '⚜️',
-      premium: '🎟️',
-      pointxp: '📧',
-      gold: '👑',
-      iron: '⛓️',
-      coal: '🌑',
-      stone: '🪨',
-      potion: '🥤',
-    };
-    const results = Object.keys(emott).map((v) => [v, new RegExp(v, 'gi')]).filter((v) => v[1].test(string));
-    if (!results.length) return '';
-    else return emott[results[0][0]];
-  }};  
-
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
-global.multiplier = 69
-global.maxwarn = '3'
-
-//*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
+//✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
