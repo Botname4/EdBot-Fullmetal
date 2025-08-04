@@ -11,7 +11,7 @@ import fs, { readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileS
 import yargs from 'yargs'
 import { spawn, execSync } from 'child_process'
 import lodash from 'lodash'
-import { yukiJadiBot } from './plugins/jadibot-serbot.js'
+import { edbotJadiBot } from './plugins/jadibot-serbot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
@@ -38,7 +38,7 @@ const { chain } = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
-console.log(chalk.magentaBright('\n❀ Iniciando...'))
+console.log(chalk.magentaBright('\n💫 Iniciando...'))
 say('Ed Full Bot', {
 font: 'simple',
 align: 'left',
@@ -115,9 +115,9 @@ do {
 opcion = await question(`
 ╭─────────────────────────────◉
 │ ${chalk.red.bgBlueBright.bold('    ⚙ MÉTODO DE CONEXIÓN BOT    ')}
-│「 💡 」${chalk.yellow('Selecciona cómo quieres conectarte')}
+│「 🗯 」${chalk.yellow('Selecciona cómo quieres conectarte')}
 │「 📲 」${chalk.yellow.bgRed.bold('1. Escanear Código QR')}
-│「 🔑 」${chalk.red.bgGreenBright.bold('2. Código de Emparejamiento')}
+│「 🔛 」${chalk.red.bgGreenBright.bold('2. Código de Emparejamiento')}
 │
 │「 ℹ️ 」${chalk.gray('Usa el código si tienes problemas con el QR')}
 │「 🚀 」${chalk.gray('Ideal para la primera configuración')}
@@ -186,7 +186,7 @@ phoneNumber = await question(`
 ╭─────────────────────────────◉
 │ ${chalk.black.bgGreenBright.bold('  📞 INGRESO DE NÚMERO WHATSAPP  ')}
 │「 ✨ 」${chalk.whiteBright('Introduce tu número con prefijo de país')}
-│「 🧾 」${chalk.yellowBright('Ejemplo: 57321XXXXXXX')}
+│「 🔃 」${chalk.yellowBright('Ejemplo: 57321XXXXXXX')}
 ╰─────────────────────────────◉
 ${chalk.magentaBright('--->')} ${chalk.bold('Número: ')}`)
 phoneNumber = phoneNumber.replace(/\D/g,'')
