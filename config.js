@@ -14,6 +14,7 @@ global.owner = [
 ['584164137403', '☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
 ['15614809253', 'David-RyzeMD', true],
 ['5216641784469', 'BrayanOFC', true],
+//BrayanOFC el mejor ATTE:Legend
 ];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
@@ -82,8 +83,8 @@ global.photoSity = [catalogo]
 // ᘜᖇᑌᑭOՏ ᗪᗴL ᗷOT 🗂️
 global.gp1 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42/'
 global.channel2 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42'
-global.md = 'https:/Botname4/'
-global.correo = 'brayanfree881@gmail.com'
+global.md = 'https:/Botname4/EdBot-Fullmetal'
+global.correo = 'logo diomarlugo405@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
