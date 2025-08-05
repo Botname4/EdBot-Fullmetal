@@ -1,4 +1,4 @@
-import { exec } from 'child_process';
+/*import { exec } from 'child_process';
 
 let handler = async (m, { conn }) => {
   m.reply('🔄 𝒑𝒓𝒐𝒄𝒆𝒔𝒂𝒏𝒅𝒐 𝒔𝒐𝒍𝒊𝒄𝒊𝒕𝒖𝒅 𝒅𝒆 𝒂𝒄𝒕𝒖𝒂𝒍𝒊𝒛𝒂𝒄𝒊𝒐𝒏...');
@@ -24,4 +24,4 @@ handler.tags = ['owner'];
 handler.command = update;
 handler.rowner = true;
 
-export default handler;
+export default handler;*/
