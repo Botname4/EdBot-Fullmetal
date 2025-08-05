@@ -136,7 +136,7 @@ global.icono = [
 ].getRandom()
 
 
-global.rcanal1 = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: idchannel, serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal1 = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: global.idchannel, serverMessageId: 100, newsletterName: global.namechannel, }, externalAdReply: { title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 global.rcanal2 = { contextInfo: { externalAdReply: { title: botname, mediaType: 2, previewType: "VIDEO", thumbnail: catalogo, mediaUrl: 'https://youtu.be/FKVuVneuwtg', sourceUrl: gp1 }}} 
 
@@ -144,9 +144,9 @@ global.rcanal = {
   contextInfo: {
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: idchannel,
+      newsletterJid: global.idchannel,
       serverMessageId: 100,
-      newsletterName: namechannel
+      newsletterName: global.namechannel
     },
     externalAdReply: {
       title: botname,
