@@ -20,8 +20,7 @@ let handler = async (m, { conn }) => {
     }
   });
 };
-
-handler.help = ['update'];
+@@ -25,5 +25,3 @@ handler.help = ['update'];
 handler.tags = ['owner'];
 handler.command = ['update'];
 handler.rowner = true;
