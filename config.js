@@ -13,8 +13,7 @@ import moment from 'moment-timezone'
 global.owner = [
 ['584164137403', '☆꧁༒ĹєǤ𝒆𝐧𝐃༒꧂☆', true],
 ['15614809253', 'David-RyzeMD', true],
-['50248019799', '🐉𝙉𝙚𝙤𝙏𝙤𝙠𝙮𝙤 𝘽𝙚𝙖𝙩𝙨🐲', true],
-['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
+['5216641784469', 'BrayanOFC', true],
 ];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
@@ -28,8 +27,8 @@ global.prems = ['5212203832129'];
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ El ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'RoxyBot';
-global.namebot = 'RoxyBot';
+global.nameqr = '𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭';
+global.namebot = '𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -51,7 +50,7 @@ global.moneda = 'dolares';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-global.namabot = '⫹⫺  ᴍᴅ'
+global.namabot = '⫹⫺ 𝘌𝘥𝘉𝘰𝘵-𝘍𝘶𝘭𝘭𝘔𝘦𝘵𝘢𝘭'
 global.v = '-'   
 global.eror = "_ubo un error _"
 global.lopr = "🅟"
@@ -80,10 +79,10 @@ global.photoSity = [catalogo]
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-// ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
+// ᘜᖇᑌᑭOՏ ᗪᗴL ᗷOT 🗂️
 global.gp1 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42/'
 global.channel2 = 'https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42'
-global.md = 'https://El-brayan502/RoxyBot-MD'
+global.md = 'https:/Botname4/'
 global.correo = 'brayanfree881@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VbA877dDDmFSafT2xI42';
 
