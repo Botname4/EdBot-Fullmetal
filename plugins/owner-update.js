@@ -25,3 +25,4 @@ let handler = async (m, { conn }) => {
 handler.tags = ['owner'];
 handler.command = ['update'];
 handler.rowner = true;
+export default handler;
